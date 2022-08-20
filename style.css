@@ -1,26 +1,26 @@
-body{
-    justify-content: center;
-}
+
 #tela { 
-    width: 650px;
-    height: 650px;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: rgb(161, 85, 85);
     background-image: linear-gradient(white, red); 
     display: flex;
     flex-direction: column;
     border: solid 2px rgba(149, 153, 153, 0.767);
-    
-    
  }
 
 
+
 #sim {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
     text-align: center;
     background-color: rgb(161, 85, 85); 
     background-image: linear-gradient(white, red); 
-    width: 100px;
+    width: 75px;
     height: 50px;
     border-radius: 30px;
     border:  groove;
@@ -28,14 +28,13 @@ body{
 }
     
 #nao {
-    position: fixed;
+    position: absolute;
     text-align: center;
     background-color: rgb(161, 85, 85);
     background-image: linear-gradient(white, red); 
-    width: 100px;
+    width: 75px;
     height: 50px;
     margin: 1%;
-    left: 200px;
     border-radius: 30px;
     border:  groove;
     border-color: black;
