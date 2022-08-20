@@ -1,0 +1,43 @@
+body{
+    justify-content: center;
+}
+#tela { 
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    background-color: rgb(161, 85, 85);
+    background-image: linear-gradient(white, red); 
+    display: flex;
+    flex-direction: column;
+    border: solid 2px rgba(149, 153, 153, 0.767);
+    
+    
+ }
+
+
+#sim {
+    position: relative;
+    text-align: center;
+    background-color: rgb(161, 85, 85); 
+    background-image: linear-gradient(white, red); 
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border:  groove;
+    border-color: black;
+}
+    
+#nao {
+    position: fixed;
+    text-align: center;
+    background-color: rgb(161, 85, 85);
+    background-image: linear-gradient(white, red); 
+    width: 100px;
+    height: 50px;
+    margin: 1%;
+    left: 200px;
+    border-radius: 30px;
+    border:  groove;
+    border-color: black;
+
+}
